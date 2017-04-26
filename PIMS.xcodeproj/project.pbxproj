@@ -8,13 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		4D327DD21EA331ED0036E42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327DD11EA331ED0036E42E /* AppDelegate.swift */; };
-		4D327DD41EA331ED0036E42E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327DD31EA331ED0036E42E /* FirstViewController.swift */; };
-		4D327DD61EA331ED0036E42E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327DD51EA331ED0036E42E /* SecondViewController.swift */; };
 		4D327DD91EA331ED0036E42E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D327DD71EA331ED0036E42E /* Main.storyboard */; };
-		4D327DDB1EA331ED0036E42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D327DDA1EA331ED0036E42E /* Assets.xcassets */; };
 		4D327DDE1EA331ED0036E42E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D327DDC1EA331ED0036E42E /* LaunchScreen.storyboard */; };
 		4D327DE91EA331ED0036E42E /* PIMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327DE81EA331ED0036E42E /* PIMSTests.swift */; };
 		4D327DF41EA331ED0036E42E /* PIMSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327DF31EA331ED0036E42E /* PIMSUITests.swift */; };
+		4D327E021EA336FD0036E42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D327E011EA336FD0036E42E /* Assets.xcassets */; };
+		4D327E061EA3384A0036E42E /* PIMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E051EA3384A0036E42E /* PIMS.swift */; };
+		4D327E0D1EA339E30036E42E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E0C1EA339E30036E42E /* BaseViewController.swift */; };
+		4D327E0F1EA33AF30036E42E /* EventVewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E0E1EA33AF30036E42E /* EventVewController.swift */; };
+		4D327E111EA33B020036E42E /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E101EA33B020036E42E /* AlarmViewController.swift */; };
+		4D327E131EA33B0E0036E42E /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E121EA33B0E0036E42E /* TimerViewController.swift */; };
+		4D327E151EA33B180036E42E /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E141EA33B180036E42E /* MemoViewController.swift */; };
+		4D327E171EA33B230036E42E /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E161EA33B230036E42E /* ReminderViewController.swift */; };
+		4D327E191EA35C340036E42E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E181EA35C340036E42E /* Event.swift */; };
+		4D327E1B1EA35C390036E42E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E1A1EA35C390036E42E /* Alarm.swift */; };
+		4D327E1D1EA35C3E0036E42E /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E1C1EA35C3E0036E42E /* Timer.swift */; };
+		4D327E1F1EA35C450036E42E /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E1E1EA35C450036E42E /* Memo.swift */; };
+		4D327E211EA35C490036E42E /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E201EA35C490036E42E /* Reminder.swift */; };
+		4D327E231EA35C580036E42E /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E221EA35C580036E42E /* EventCell.swift */; };
+		4D327E251EA35C650036E42E /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E241EA35C650036E42E /* AlarmCell.swift */; };
+		4D327E271EA35C6B0036E42E /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E261EA35C6B0036E42E /* TimerCell.swift */; };
+		4D327E291EA35C750036E42E /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E281EA35C750036E42E /* MemoCell.swift */; };
+		4D327E2B1EA35C7B0036E42E /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D327E2A1EA35C7B0036E42E /* ReminderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +52,7 @@
 /* Begin PBXFileReference section */
 		4D327DCE1EA331ED0036E42E /* PIMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D327DD11EA331ED0036E42E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D327DD31EA331ED0036E42E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4D327DD51EA331ED0036E42E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4D327DD81EA331ED0036E42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D327DDA1EA331ED0036E42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D327DDD1EA331ED0036E42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D327DDF1EA331ED0036E42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D327DE41EA331ED0036E42E /* PIMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +61,24 @@
 		4D327DEF1EA331ED0036E42E /* PIMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D327DF31EA331ED0036E42E /* PIMSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIMSUITests.swift; sourceTree = "<group>"; };
 		4D327DF51EA331ED0036E42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D327E011EA336FD0036E42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D327E051EA3384A0036E42E /* PIMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PIMS.swift; sourceTree = "<group>"; };
+		4D327E0C1EA339E30036E42E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4D327E0E1EA33AF30036E42E /* EventVewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventVewController.swift; sourceTree = "<group>"; };
+		4D327E101EA33B020036E42E /* AlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		4D327E121EA33B0E0036E42E /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		4D327E141EA33B180036E42E /* MemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		4D327E161EA33B230036E42E /* ReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		4D327E181EA35C340036E42E /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4D327E1A1EA35C390036E42E /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		4D327E1C1EA35C3E0036E42E /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		4D327E1E1EA35C450036E42E /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		4D327E201EA35C490036E42E /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		4D327E221EA35C580036E42E /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		4D327E241EA35C650036E42E /* AlarmCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
+		4D327E261EA35C6B0036E42E /* TimerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
+		4D327E281EA35C750036E42E /* MemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		4D327E2A1EA35C7B0036E42E /* ReminderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +129,11 @@
 		4D327DD01EA331ED0036E42E /* PIMS */ = {
 			isa = PBXGroup;
 			children = (
-				4D327DD11EA331ED0036E42E /* AppDelegate.swift */,
-				4D327DD31EA331ED0036E42E /* FirstViewController.swift */,
-				4D327DD51EA331ED0036E42E /* SecondViewController.swift */,
-				4D327DD71EA331ED0036E42E /* Main.storyboard */,
-				4D327DDA1EA331ED0036E42E /* Assets.xcassets */,
-				4D327DDC1EA331ED0036E42E /* LaunchScreen.storyboard */,
-				4D327DDF1EA331ED0036E42E /* Info.plist */,
+				4D327E0B1EA338D40036E42E /* Controller */,
+				4D327E0A1EA338CB0036E42E /* View */,
+				4D327E091EA338840036E42E /* Model */,
+				4D327E081EA338720036E42E /* Apps */,
+				4D327E051EA3384A0036E42E /* PIMS.swift */,
 			);
 			path = PIMS;
 			sourceTree = "<group>";
@@ -126,6 +154,55 @@
 				4D327DF51EA331ED0036E42E /* Info.plist */,
 			);
 			path = PIMSUITests;
+			sourceTree = "<group>";
+		};
+		4D327E081EA338720036E42E /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				4D327DD11EA331ED0036E42E /* AppDelegate.swift */,
+				4D327E011EA336FD0036E42E /* Assets.xcassets */,
+				4D327DD71EA331ED0036E42E /* Main.storyboard */,
+				4D327DDC1EA331ED0036E42E /* LaunchScreen.storyboard */,
+				4D327DDF1EA331ED0036E42E /* Info.plist */,
+			);
+			name = Apps;
+			sourceTree = "<group>";
+		};
+		4D327E091EA338840036E42E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D327E181EA35C340036E42E /* Event.swift */,
+				4D327E1A1EA35C390036E42E /* Alarm.swift */,
+				4D327E1C1EA35C3E0036E42E /* Timer.swift */,
+				4D327E1E1EA35C450036E42E /* Memo.swift */,
+				4D327E201EA35C490036E42E /* Reminder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D327E0A1EA338CB0036E42E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D327E221EA35C580036E42E /* EventCell.swift */,
+				4D327E241EA35C650036E42E /* AlarmCell.swift */,
+				4D327E261EA35C6B0036E42E /* TimerCell.swift */,
+				4D327E281EA35C750036E42E /* MemoCell.swift */,
+				4D327E2A1EA35C7B0036E42E /* ReminderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D327E0B1EA338D40036E42E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D327E0C1EA339E30036E42E /* BaseViewController.swift */,
+				4D327E0E1EA33AF30036E42E /* EventVewController.swift */,
+				4D327E101EA33B020036E42E /* AlarmViewController.swift */,
+				4D327E121EA33B0E0036E42E /* TimerViewController.swift */,
+				4D327E141EA33B180036E42E /* MemoViewController.swift */,
+				4D327E161EA33B230036E42E /* ReminderViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D327DDE1EA331ED0036E42E /* LaunchScreen.storyboard in Resources */,
-				4D327DDB1EA331ED0036E42E /* Assets.xcassets in Resources */,
+				4D327E021EA336FD0036E42E /* Assets.xcassets in Resources */,
 				4D327DD91EA331ED0036E42E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +339,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D327DD61EA331ED0036E42E /* SecondViewController.swift in Sources */,
+				4D327E061EA3384A0036E42E /* PIMS.swift in Sources */,
+				4D327E1D1EA35C3E0036E42E /* Timer.swift in Sources */,
+				4D327E191EA35C340036E42E /* Event.swift in Sources */,
+				4D327E1F1EA35C450036E42E /* Memo.swift in Sources */,
+				4D327E211EA35C490036E42E /* Reminder.swift in Sources */,
+				4D327E1B1EA35C390036E42E /* Alarm.swift in Sources */,
+				4D327E0D1EA339E30036E42E /* BaseViewController.swift in Sources */,
+				4D327E171EA33B230036E42E /* ReminderViewController.swift in Sources */,
+				4D327E111EA33B020036E42E /* AlarmViewController.swift in Sources */,
+				4D327E131EA33B0E0036E42E /* TimerViewController.swift in Sources */,
+				4D327E151EA33B180036E42E /* MemoViewController.swift in Sources */,
+				4D327E0F1EA33AF30036E42E /* EventVewController.swift in Sources */,
+				4D327E251EA35C650036E42E /* AlarmCell.swift in Sources */,
+				4D327E271EA35C6B0036E42E /* TimerCell.swift in Sources */,
+				4D327E231EA35C580036E42E /* EventCell.swift in Sources */,
+				4D327E2B1EA35C7B0036E42E /* ReminderCell.swift in Sources */,
+				4D327E291EA35C750036E42E /* MemoCell.swift in Sources */,
 				4D327DD21EA331ED0036E42E /* AppDelegate.swift in Sources */,
-				4D327DD41EA331ED0036E42E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +603,7 @@
 				4D327DFA1EA331ED0036E42E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D327DFB1EA331ED0036E42E /* Build configuration list for PBXNativeTarget "PIMSTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +612,7 @@
 				4D327DFD1EA331ED0036E42E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D327DFE1EA331ED0036E42E /* Build configuration list for PBXNativeTarget "PIMSUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +621,7 @@
 				4D327E001EA331ED0036E42E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
