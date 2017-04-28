@@ -88,9 +88,9 @@ extension PIMS.Event {
 
 extension PIMS.Event {
     struct Model: Equatable {
-        var dateRange: DateRange
         var title: String
         var issueID: String
+        var dateRange: DateRange
         var event: EKEvent?
 
         init(dateRange: DateRange, title: String, issueID: String = UUID().uuidString) {

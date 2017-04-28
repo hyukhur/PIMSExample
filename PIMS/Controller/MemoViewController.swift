@@ -9,7 +9,7 @@
 import UIKit
 
 class PIMSMemoViewController: PIMS.BaseViewController {
-    typealias Model = PIMS.Memo.Model
+    private typealias Model = PIMS.Memo.Model
 
     @IBAction func create(_ sender: Any) {
         let model = Model(memoID: "Memo", content: "content", createDate: Date())

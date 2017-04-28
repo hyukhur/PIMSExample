@@ -9,7 +9,7 @@
 import UIKit
 
 class PIMSAlarmViewController: PIMS.BaseViewController {
-    typealias Model = PIMS.Alarm.Model
+    private typealias Model = PIMS.Alarm.Model
     
     @IBAction func create(_ sender: Any) {
         let model = Model(token: UUID().uuidString, period: PIMS.Alarm.Model.Period(scheduledDate: Date(), weekdays: nil))

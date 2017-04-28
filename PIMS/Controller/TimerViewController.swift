@@ -9,7 +9,7 @@
 import UIKit
 
 class PIMSTimerViewController: PIMS.BaseViewController {
-    typealias Model = PIMS.Timer.Model
+    private typealias Model = PIMS.Timer.Model
 
     @IBAction func create(_ sender: Any) {
         let model = Model(token: UUID().uuidString, serverDate: Date(), scheduledDate: Date())

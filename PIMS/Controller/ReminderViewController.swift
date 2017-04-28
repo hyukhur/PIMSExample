@@ -9,7 +9,7 @@
 import UIKit
 
 class PIMSReminderViewController: PIMS.BaseViewController {
-    typealias Model = PIMS.Reminder.Model
+    private typealias Model = PIMS.Reminder.Model
 
     @IBAction func create(_ sender: Any) {
         let model = Model(reminderID: UUID().uuidString, content: "Remind", done: false)
@@ -29,7 +29,12 @@ class PIMSReminderViewController: PIMS.BaseViewController {
         return cell!
     }
 }
-
+typealias PIMSReminderViewController = PIMS.Reminder.ViewController
 extension PIMS.Reminder {
-    typealias ViewController = PIMSReminderViewController
+    class ViewController: PIMS.BaseViewController {
+        @IBAction func create(_ sender: Any) {
+        }
+    }
+}
+//    typealias ViewController = PIMSReminderViewController
 }

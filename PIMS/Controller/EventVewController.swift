@@ -9,7 +9,7 @@
 import UIKit
 
 class PIMSEventViewController: PIMS.BaseViewController {
-    typealias Model = PIMS.Event.Model
+    private typealias Model = PIMS.Event.Model
 
     typealias DateRange = PIMS.Event.DateRange
     @IBAction func create(_ sender: Any) {
